@@ -1,4 +1,5 @@
 #include<stdio.h>
+int times(int b,int c);
 int main(void){
     printf("Hello World\n");
     system("Pause");
@@ -15,7 +16,9 @@ int main(void){
         case 2:d=b-c;break;
         default:d=0;break;
     }
-    printf("%d",d);
+    printf("%d\n",d);
 
+    a=times(b,c);
+    printf("%d\n",a);
     return 0;
 }
