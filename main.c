@@ -19,6 +19,6 @@ int main(void){
     printf("%d\n",d);
 
     a=times(b,c);
-    printf("%d\n",a);
+    printf("the result of times is:%d\n",a);
     return 0;
 }
