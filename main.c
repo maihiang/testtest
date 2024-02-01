@@ -3,7 +3,7 @@ int times(int b,int c);
 int main(void){
     printf("Hello World\n");
     system("Pause");
-    printf("Please select 1 mode:\n1 for plus\n2 for minus\nPlease choose your mode:");
+    printf("Please select one mode:\n1 for plus\n2 for minus\nPlease choose your mode:");
     int a,b,c,d;
     
     scanf("%d",&a);
